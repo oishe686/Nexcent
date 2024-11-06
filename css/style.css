@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+}
+
+.container{
+    width: 1156px;
+    margin: auto;
+
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav .row{
+    align-items: center;
+}
+
+nav .logo{
+    width: 20%;
+}
+
+nav .menu{
+    width: 60%;
+    text-align: center;
+    
+}
+
+nav .menu li{
+    margin: 30px 25px;
+    display: inline-block;
+}
+
+nav .menu a{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #18191f;
+}
+
+
+nav .signIn{
+    width: 20%;
+    text-align: right;
+}
+
+nav .button{
+    padding: 10px 20px;
+    border-radius: 6px;
+    background-color: #4caf4f;
+    color: white;
+    margin: 0 7px;
+}
+
+.button.outline{
+    background-color: white;
+    color: #4caf4f;
+
+}
+
+#banner{
+    background-color: #f5f7fa;
+    padding: 96px 144px;
+    
+}
+
+.bannerCnt h1{
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 119%;
+    color: #4d4d4d; 
+      
+}
+
+.bannerCnt .highlight{
+    color: #4caf4f;
+}
+
+.bannerCnt p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #717171;
+    margin: 16px 0 32px 0;
+    
+}
+
+.bannerCnt .button{
+    padding: 14px 32px;
+    border-radius: 4px;
+    background-color: #4caf4f;
+    color: white;
+    display: inline-block;
+
+}
+
+.bannerImg{
+    margin-left: 104px;
+    
+}
+
+#clients{
+    margin: 40px 0 40px;
+    align-items: center;
+
+}
+
+.clientcontent h4 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 122%;
+    text-align: center;
+    color: #4d4d4d;
+    
+}
+
+.clientcontent p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color:  #717171;
+    margin-bottom: 16px;
+    
+}
+
+.company{
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.company a{
+    margin: 0 55px;
+    
+}
+
+.communitycontent h4{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 122%;
+    text-align: center;
+    color: #4d4d4d;
+    
+}
+
+.communitycontent p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color:#717171;
+    margin-bottom: 16px;
+    
+}
+
+#card{
+    margin-bottom: 42px;
+    
+    
+}
+
+.card1 .cardimg{
+    margin: 10px 117px;
+}
+
+#card .card1{
+    width: 33.33%;
+    margin: 10px 63px;
+    padding: 24px 32px;
+    border-radius: 8px;
+    background:#fff;
+    box-shadow: 0 2px 4px 0 rgba(171, 190, 209, 0.2);
+    
+}
+
+.card1 .cardcontent h5{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 129%;
+    text-align: center;
+    color:#4d4d4d;
+    
+}
+
+.card1 .cardcontent p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 143%;
+    text-align: center;
+    color: #717171;
+    margin: 8px;
+}
+
+#customer .customercontent h4{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 122%;
+    color: #4d4d4d;
+    
+}
